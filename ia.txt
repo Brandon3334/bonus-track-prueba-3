@@ -22,3 +22,25 @@ Prompt: "Ayúdame a crear un componente PeliculaCard que reciba los datos de una
 Resultado: La IA sugirió una estructura para mostrar título, género, duración, clasificación, sinopsis y horarios.
 Utilidad: Útil, porque pude construir la tarjeta principal de cada película.
 Modificaciones: Ajusté los estilos, agregué valores por defecto y documenté las props para evitar errores si faltaba algún dato.
+
+
+
+=== Etapa 3 ===
+Prompt: "Ayúdame a crear ListaPeliculas para recorrer el arreglo con map y renderizar un PeliculaCard por cada película usando key con id."
+Resultado: La IA me orientó para recorrer el arreglo de películas y pasar cada dato al componente PeliculaCard.
+Utilidad: Útil, porque pude mostrar todas las películas sin repetir código manualmente.
+Modificaciones: Revisé que la key usara pelicula.id y no el índice del array, y adapté los nombres de las props al archivo peliculas.js.
+
+
+=== Etapa 4 ===
+Prompt: "Ayúdame a implementar un filtro por clasificación y una búsqueda controlada por título usando useState en React."
+Resultado: La IA me ayudó a combinar ambos filtros antes de renderizar la lista.
+Utilidad: Útil, porque pude filtrar por clasificación y búsqueda al mismo tiempo.
+Modificaciones: Normalicé el texto con trim, limité el largo de la búsqueda y mantuve el input controlado.
+
+
+=== Etapa 5 ===
+Prompt: "Ayúdame a destacar visualmente las películas que tienen funcionHoy en true y a mostrar un contador con la cantidad de películas que se exhiben hoy."
+Resultado: La IA me sugirió mostrar una etiqueta HOY en las películas correspondientes y calcular un contador a partir del arreglo de películas.
+Utilidad: Útil, porque pude resaltar visualmente las funciones del día y mostrar el total de películas disponibles hoy.
+Modificaciones: Ajusté el diseño de la etiqueta HOY, agregué el contador y comprobé que coincidiera con los datos del archivo peliculas.js.
