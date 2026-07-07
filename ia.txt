@@ -1,0 +1,11 @@
+=== Parte A ===
+Prompt: "Ayúdame a identificar qué elementos de React se relacionan con una aplicación de cartelera digital llamada CineLista. Necesito reconocer componentes, JSX, props, estado, renderizado de listas y renderizado condicional, pero quiero redactar el análisis final con mis propias palabras."
+Resultado: La IA me ayudó a ordenar qué elementos de React se aplicaban en la problemática de la cartelera digital.
+Utilidad: Útil, porque me permitió entender mejor dónde usar componentes, props, estado, listas y condicionales antes de comenzar a programar.
+Modificaciones: Redacté el contenido de ANALISIS.md con mis propias palabras y adapté los ejemplos a los archivos reales del proyecto.
+
+=== Etapa 1 ===
+Prompt: "Guíame para crear un proyecto React con Vite llamado bonus-track-prueba-3, crear la carpeta src/data, agregar peliculas.js e importar el arreglo peliculas en App.jsx para comprobarlo con console.log. No avances todavía a componentes."
+Resultado: La IA me indicó los pasos para crear el proyecto base, instalar dependencias, crear el archivo de datos e importar el arreglo en App.jsx.
+Utilidad: Útil, porque pude verificar que el proyecto estaba correctamente creado y listo para usar datos locales.
+Modificaciones: Ejecuté manualmente los comandos, creé las carpetas necesarias y agregué el archivo peliculas.js.
