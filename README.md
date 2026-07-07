@@ -1,16 +1,44 @@
-# React + Vite
+# Bonus Track Prueba 3 — CineLista
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Estudiante
+BRANDON IGNACIO JORQUERA CARVAJAL
 
-Currently, two official plugins are available:
+## Descripción del proyecto
+Este repositorio corresponde al bonus track de la tercera evaluación de Programación Front End.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+La aplicación CineLista es una SPA desarrollada con React y Vite que permite mostrar una cartelera digital de películas. La aplicación permite visualizar películas, buscar por título, filtrar por clasificación y destacar visualmente las películas que tienen función durante el día.
 
-## React Compiler
+## Funcionalidades principales
+- Visualización de películas en tarjetas.
+- Filtro por clasificación: Todas, TE, +14 y +18.
+- Búsqueda de películas por título.
+- Contador de películas en función hoy.
+- Etiqueta visual “HOY” para destacar películas disponibles durante el día.
+- Renderizado condicional cuando no existen coincidencias en la búsqueda.
+- Componentes separados para mantener el código ordenado.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tecnologías utilizadas
+- React
+- Vite
+- JavaScript
+- HTML
+- CSS
+- Git y GitHub
 
-## Expanding the Oxlint configuration
+## Estructura principal del proyecto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```txt
+bonus-track-prueba-3/
+├── src/
+│   ├── components/
+│   │   ├── PeliculaCard.jsx
+│   │   ├── ListaPeliculas.jsx
+│   │   └── FiltroClasificacion.jsx
+│   ├── data/
+│   │   └── peliculas.js
+│   ├── App.jsx
+│   └── main.jsx
+├── ANALISIS.md
+├── ia.txt
+├── README.md
+└── package.json
