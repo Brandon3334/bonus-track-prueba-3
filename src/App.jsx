@@ -1,4 +1,5 @@
 import { peliculas } from "./data/peliculas";
+import ListaPeliculas from "./components/ListaPeliculas";
 import "./App.css";
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
       <p>
         <strong>Total de películas cargadas:</strong> {peliculas.length}
       </p>
+
+      <ListaPeliculas peliculas={peliculas} />
     </main>
   );
 }
