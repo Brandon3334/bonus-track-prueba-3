@@ -8,4 +8,17 @@ Modificaciones: Redacté el contenido de ANALISIS.md con mis propias palabras y 
 Prompt: "Guíame para crear un proyecto React con Vite llamado bonus-track-prueba-3, crear la carpeta src/data, agregar peliculas.js e importar el arreglo peliculas en App.jsx para comprobarlo con console.log. No avances todavía a componentes."
 Resultado: La IA me indicó los pasos para crear el proyecto base, instalar dependencias, crear el archivo de datos e importar el arreglo en App.jsx.
 Utilidad: Útil, porque pude verificar que el proyecto estaba correctamente creado y listo para usar datos locales.
+Modificaciones: Ejecuté manualmente los comandos, creé las carpetas necesarias y agregué el archivo peliculas.js.=== Etapa 1 ===
+Prompt: "Guíame para crear un proyecto React con Vite llamado bonus-track-prueba-3, crear la carpeta src/data, agregar peliculas.js e importar el arreglo peliculas en App.jsx para comprobarlo con console.log. No avances todavía a componentes."
+Resultado: La IA me indicó los pasos para crear el proyecto base, instalar dependencias, crear el archivo de datos e importar el arreglo en App.jsx.
+Utilidad: Útil, porque pude verificar que el proyecto estaba correctamente creado y que el arreglo de películas cargaba en consola.
 Modificaciones: Ejecuté manualmente los comandos, creé las carpetas necesarias y agregué el archivo peliculas.js.
+
+
+
+
+=== Etapa 2 ===
+Prompt: "Ayúdame a crear un componente PeliculaCard que reciba los datos de una película por props y muestre la información de forma ordenada, usando valores por defecto para evitar errores."
+Resultado: La IA sugirió una estructura para mostrar título, género, duración, clasificación, sinopsis y horarios.
+Utilidad: Útil, porque pude construir la tarjeta principal de cada película.
+Modificaciones: Ajusté los estilos, agregué valores por defecto y documenté las props para evitar errores si faltaba algún dato.
